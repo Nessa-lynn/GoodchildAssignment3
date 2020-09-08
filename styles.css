@@ -1,0 +1,57 @@
+050609 rich black
+F5D0C5 unbleached silk
+D69F7E tumbleweed
+774936 coffee
+3C0000 black (red) bean
+
+ 
+ /* Global Styles
+ -----------------------------------------------*/
+ body{
+     color: #050609;
+}
+img {   
+    width: 300px;
+}
+a {
+    color: #774936;   
+}
+a:hover{
+    text-decoration: none;
+}
+/* Profile
+ -----------------------------------------------*/
+header{
+    background: #774936;
+    color: linen;
+
+}
+
+ /* Projects
+ -----------------------------------------------*/
+ .projects{
+    background: #F5D0C5;
+ }
+ .projects a{
+     color: linen;
+     background: #3C0000;
+     text-decoration: none;
+     padding: 8px;
+     border-radius: 4px;   
+ }
+ .projects a:hover{
+     background: rgba(60, 0, 0, 80%);
+ }
+ /* Work Experience
+ -----------------------------------------------*/
+    .work-experience{
+    background: #D69F7E;
+    }
+ /* Education
+ -----------------------------------------------*/
+ /* Contact
+ -----------------------------------------------*/
+ footer{
+     background: #3C0000;
+     color: linen;
+ }
