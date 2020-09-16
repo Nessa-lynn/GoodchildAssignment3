@@ -1,23 +1,59 @@
+/* Colors
+
 050609 rich black
 F5D0C5 unbleached silk
 D69F7E tumbleweed
 774936 coffee
 3C0000 black (red) bean
 
- 
- /* Global Styles
+ Global Styles
  -----------------------------------------------*/
- body{
-     color: #050609;
+ html{
+     box-sizing: border-box;
+ }
+ *, *:before, *:after {
+     box-sizing: inherit;
+ }
+body {
+    color: #050609;
+    margin: 0;
+    padding: 0;
+    font-family: 'century-gothic' , sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    font-style: normal;
+    font-weight: 400;
 }
 img {   
     width: 300px;
 }
 a {
-    color: #774936;   
+    color: chocolate;   
 }
 a:hover{
     text-decoration: none;
+}
+h1 {
+    font-size: 75px;
+    text-shadow: -5px 0 chocolate, 0 1px chocolate, 1px 0 chocolate, 0 -1px chocolate;
+    
+
+}
+h2 {
+    font-size: 25px;
+}
+h1, h2 {
+    font-family: 'hwt-arabesque', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    margin: 0;
+}
+.content-wrap{
+    width: 800px;
+    margin: 0 auto;  
+}
+.font-effect {
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 /* Profile
  -----------------------------------------------*/
@@ -32,6 +68,15 @@ header{
  .projects{
     background: #F5D0C5;
  }
+ .projects .btn {
+     color : #3C0000;
+     background: #3C0000;
+     text-decoration: none;
+     padding: 8px;
+     border-radius: 4px;
+     display: inline-block; 
+
+ }
  .projects a{
      color: linen;
      background: #3C0000;
@@ -41,6 +86,18 @@ header{
  }
  .projects a:hover{
      background: rgba(60, 0, 0, 80%);
+ }
+ .project-item {
+     overflow: hidden;
+     border-bottom: 1px dashed #050609;
+     padding: 25px 0;
+ }
+ .project-item img {
+     float: left;
+     margin-right: 20px;
+ }
+ .project-item h3 {
+     margin-top: 0;
  }
  /* Work Experience
  -----------------------------------------------*/
